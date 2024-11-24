@@ -1,0 +1,55 @@
+@font-face {
+    font-family: h1;
+    src: url(./Font/FallingSkyBlack-GYXA.otf);
+}
+*{
+    /* outline: 2px red dotted; */
+}
+body{
+    background-image: linear-gradient(to left bottom, #28008c, #332da5, #414dbd, #536cd2, #698ae6, #5996ea, #4ea2ea, #4cace9, #0fa5d2, #009cb8, #00929c, #0b8780);
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+
+    overflow-x: hidden;
+}
+
+#headline{
+
+    text-align: center;
+}
+h1{
+    font-size: 4.3rem;
+    margin: 0;
+    font-family: h1;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#erg{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.weatherInfos{
+    display: flex;
+    
+}
+.weather-info{
+    margin-right: 2vw;
+}
+#id1, #id2, #id3, #id4, #id0{
+    background-color: rgba(255, 255, 255, 0.721);
+    padding: 2%;
+    margin-bottom: 1vw;
+    border-radius: 2vw;
+    padding-left: 10vw;
+
+    transition: all 1s ease;
+}
+
+#id1:hover, #id2:hover, #id3:hover, #id4:hover, #id0:hover{
+    transform: scale(1.1);
+}
